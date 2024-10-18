@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="kAfivArQYH6qIu69_w99">
+    <mxGraphModel dx="453" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TVjdQ0pTr1xBhguUC_3d-25" value="- brand: String&lt;div&gt;- model: String&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="260" width="150" height="120" as="geometry">
+            <mxRectangle x="340" y="260" width="60" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVjdQ0pTr1xBhguUC_3d-27" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+&amp;nbsp;&lt;/span&gt;powerOn(): void&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+&amp;nbsp;&lt;/span&gt;powerOff(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ showInfo&lt;/span&gt;(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TVjdQ0pTr1xBhguUC_3d-25" vertex="1">
+          <mxGeometry y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVjdQ0pTr1xBhguUC_3d-33" value="&lt;font face=&quot;Helvetica&quot;&gt;Electronic Device&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="220" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OwTIcqvOAkOJUVtGrlyk-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.468;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.468;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="TVjdQ0pTr1xBhguUC_3d-27" edge="1" source="q-vg71sxouaUmiTqvqgr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="400" as="sourcePoint" />
+            <mxPoint x="150" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-1" value="Mobile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-2" value="&lt;div&gt;- bateryLevel : int&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="150" height="120" as="geometry">
+            <mxRectangle x="340" y="260" width="60" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-3" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+checkBattery(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+call(contact: String): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+chargeBattery&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;(amount: int): void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q-vg71sxouaUmiTqvqgr-2">
+          <mxGeometry y="50" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-6" value="&lt;div&gt;- storageCapacity: int&lt;/div&gt;&lt;div&gt;- isConnectedToWiFi:&amp;nbsp;&lt;/div&gt;&lt;div&gt;boolean&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="750" width="150" height="140" as="geometry">
+            <mxRectangle x="340" y="260" width="60" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-7" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+connectToWiFi(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+disconnectFromWiFi(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+checkStorage(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+browseInternet(): void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q-vg71sxouaUmiTqvqgr-6">
+          <mxGeometry y="70" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-8" value="Smartphone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="710" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.468;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="710" as="sourcePoint" />
+            <mxPoint x="140" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-10" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-11" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-12" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-vg71sxouaUmiTqvqgr-13" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="630" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
