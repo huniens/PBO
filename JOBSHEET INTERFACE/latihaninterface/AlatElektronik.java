@@ -34,5 +34,8 @@ public class AlatElektronik {
     public void setMerk(String merk) {
         this.merk = merk;
     }
-}
 
+    public String getInfo() {
+        return String.format("Merk: %-10s | Warna: %-8s | Harga: Rp%,.2f", merk, warna, harga);
+    }
+}

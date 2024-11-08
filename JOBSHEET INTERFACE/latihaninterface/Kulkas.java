@@ -1,6 +1,6 @@
 package latihaninterface;
 
-public class Kulkas extends AlatElektronik{
+public class Kulkas extends AlatElektronik {
     private int jumlahPintu;
 
     public Kulkas(int jumlahPintu, double harga, String warna, String merk) {
@@ -8,11 +8,16 @@ public class Kulkas extends AlatElektronik{
         this.jumlahPintu = jumlahPintu;
     }
 
+    public int getJumlahPintu() {
+        return jumlahPintu;
+    }
+
     public void setJumlahPintu(int jumlahPintu) {
         this.jumlahPintu = jumlahPintu;
     }
 
-    public int getjumlahPintu() {
-        return jumlahPintu;
+    @Override
+    public String getInfo() {
+        return super.getInfo() + String.format(" | Jumlah Pintu: %d", jumlahPintu);
     }
 }
